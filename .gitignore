@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv
+venv/
+ENV/
+env/
+
+# Bases de datos vectoriales (Excluidas por tamaño y consistencia)
+data/data_db/
+data/data_db_scripts/
+
+# Datos procesados y temporales
+data/raw/*.md
+data/raw/*.py
+data/raw/manifest.json
+data/raw/manifest_scripts.json
+
+# Variables de entorno y llaves secretas
+.env
+.env.local
+.secret
+.anthropic_api_key
+
+# Logs y métricas
+*.log
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Streamlit
+.streamlit/config.toml
+.streamlit/static/
+
+# Mac/OSX
+.DS_Store
+
+# IDEs
+.vscode/
+.idea/
